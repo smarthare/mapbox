@@ -1,0 +1,6 @@
+[submodule "mapbox-frontend"]
+	path = mapbox-frontend
+	url = https://github.com/smarthare/mapbox-frontend.git
+[submodule "mapbox-backend"]
+	path = mapbox-backend
+	url = https://github.com/smarthare/mapbox-backend.git
