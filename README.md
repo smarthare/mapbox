@@ -46,9 +46,9 @@ yarn serve
 
 #### Endpoints
 
-- API Documentation - [http://127.0.0.1:8000/docs](hhttp://127.0.0.1:8000/docs)
+- API Documentation - [`http://127.0.0.1:8000/docs`](hhttp://127.0.0.1:8000/docs)
 
-- Generate Random Coordinates - [http://127.0.0.1:8000/api/mapbox/coordinates](http://127.0.0.1:8000/api/mapbox/coordinates)
+- Generate Random Coordinates - [`http://127.0.0.1:8000/api/mapbox/coordinates`](http://127.0.0.1:8000/api/mapbox/coordinates)
 
 ### Frontend
 
