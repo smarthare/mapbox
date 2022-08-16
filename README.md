@@ -73,7 +73,7 @@ Your can take a closer look at this [reference](https://create-react-app.dev/doc
 
 #### Getting started
 
-Run the app in the development mode. Open [http://127.0.0.1:3000](http://127.0.0.1:3000) to view it in the browser.
+Run the app in the development mode. Open [`http://127.0.0.1:3000`](http://127.0.0.1:3000) to view it in the browser.
 
 ```
 yarn start
