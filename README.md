@@ -8,17 +8,20 @@
 
 React Component Library for Mapbox GL JS. Mapbox GL JS is a JavaScript library that renders interactive maps from vector tiles and Mapbox styles using WebGL.
 
-This example generates random coordinates within a given bounding area and display them on the map. 
+This example generates random coordinates within a given bounding area and display them on the map.
+
+<p align="center">
+    <img alt="screenshot" width="100%" src="https://github.com/smarthare/mapbox-frontend/blob/main/images/mapbox.png" />
+</p>
 
 - [Backend](#backend)
-    - [Installation](#installation)
-    - [Running](#run-the-server)
-    - [Endpoints](#endpoints)
+  - [Installation](#installation)
+  - [Running](#run-the-server)
+  - [Endpoints](#endpoints)
 - [Frontend](#frontend)
-    - [Installation](#installation)
-    - [Getting Started](#getting-started)
-    - [Usage](#usage)
-- [Images](#images)
+  - [Installation](#installation)
+  - [Getting Started](#getting-started)
+  - [Usage](#usage)
 
 ### Backend
 
@@ -26,18 +29,23 @@ This example generates random coordinates within a given bounding area and displ
 - Supports API documentation.
 
 #### Installation
+
 Install the node modules.
+
 ```
 yarn
 ```
 
 #### Run the server
+
 Runs the backend in the dev mode.
+
 ```
 yarn serve
 ```
 
 #### Endpoints
+
 - API Documentation - [http://127.0.0.1:8000/docs](hhttp://127.0.0.1:8000/docs)
 
 - Generate Random Coordinates - [http://127.0.0.1:8000/api/mapbox/coordinates](http://127.0.0.1:8000/api/mapbox/coordinates)
@@ -49,7 +57,9 @@ yarn serve
 - Interacts with backend using [`axios`](https://www.npmjs.com/package/axios)
 
 #### Installation
+
 Install the node modules.
+
 ```
 yarn
 ```
@@ -62,6 +72,7 @@ Set `MAPBOX_ACCESS_TOKEN` to enviroment variable.
 Your can take a closer look at this [reference](https://create-react-app.dev/docs/adding-custom-environment-variables/).
 
 #### Getting started
+
 Run the app in the development mode. Open [http://127.0.0.1:3000](http://127.0.0.1:3000) to view it in the browser.
 
 ```
@@ -69,13 +80,13 @@ yarn start
 ```
 
 #### Usage
+
 Enter the width and height of the bounding area and the number of coordinates, and then click `Plot` button.
+
 ```
 width: 0 - 1200
 height: 0 - 800
 number: 0 - 100
-````
+```
 
 Click where you want to know the coordinates.
-
-### Images
