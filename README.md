@@ -8,7 +8,7 @@
 
 React Component Library for Mapbox GL JS. Mapbox GL JS is a JavaScript library that renders interactive maps from vector tiles and Mapbox styles using WebGL.
 
-This example generates random coordinates within a given bounding area and display them on the map.
+This example generates random coordinates within a given bounding area and display them on the map created by React Mapbox GL.
 
 <p align="center">
     <img alt="screenshot" width="100%" src="https://github.com/smarthare/mapbox-frontend/blob/main/images/mapbox.png" />
